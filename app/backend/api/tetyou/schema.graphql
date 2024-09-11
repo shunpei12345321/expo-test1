@@ -1,0 +1,10 @@
+type Helper @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  data: String
+}
+
+
+//AWSが絡んでる 
+ 
+
+//プリズマで一旦やってもいい
